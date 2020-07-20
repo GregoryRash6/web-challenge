@@ -1,0 +1,114 @@
+.navigation .navbar-brand{
+  color: white; 
+  margin-left: 30px; 
+  padding: inherit; 
+  font-weight: bold; 
+  background-color: rgb(78,42,132);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+  background-color: black; 
+  font-size: 15px; 
+}
+.dropdown-menu{
+  background-color: rgb(78,42,132) !important; 
+}
+.dropdown-item{
+  color: white !important; 
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+  background-color: lightgrey !important;
+}
+.nav-link:hover{
+  background-color:rgb(78,42,132) !important;
+ }
+.nav-link {
+  color:white !important;
+}
+.custom {
+  background-color: lightgrey;
+  position: relative;
+  height: 100%;
+}
+img{
+  width:100% !important;
+  height:100% !important;
+}
+.active, .panel:hover {
+  border-color:rgb(78,42,132);
+  border-style: solid;
+}
+.vizualization {
+  width:50% !important;
+  height:50% !important;
+}
+.title {
+  color: rgb(78,42,132);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+p {
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+.data-box {
+  text-align: left;
+}
+.box {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  padding: 10px 30px 10px;
+  background-color: white;
+}
+.table {
+  font-size: 15px;
+  border-top-color: white !important;
+  color: rgb(78,42,132) !important;
+}
+html{
+  background-color: lightgrey;
+}
+.border {
+  border-color: rgb(86, 69, 110) !important;
+  border-width: 3px !important;
+}
+.data-row {
+  display: inline;
+}
+.row {
+  padding-bottom: 30px;
+}
+.table-responsive {
+  overflow-x:auto; 
+  overflow-y:auto; 
+  max-height:470px; 
+  max-width: auto;
+}
+@media(max-width: 992px) {
+    .data-container {
+      padding: 1em;
+      text-align: center;
+    }
+    .navbar-expand-lg {
+    background-color: black !important;
+    }
+    .navbar {
+      max-height: none;
+      padding: inherit;
+    }
+    .navbar div {
+      margin: inherit;
+      background-color: black;
+    }
+    .navbar-brand {
+      padding: 10px !important;
+    }
+    button{
+      margin-right: 30px;
+    }
+    button:focus {
+      outline: 1px dotted;
+      outline: auto 5px;
+    }
